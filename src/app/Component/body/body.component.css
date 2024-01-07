@@ -1,0 +1,14 @@
+.body{
+    display:flex;
+    height:280px;
+    padding:  30px 40px;
+    background-color:lavender;
+}
+.site-slogan{
+    margin-left:50px;
+    text-align: center;
+    width:420px;
+}
+h2{
+    font-size:45px;
+}

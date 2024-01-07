@@ -1,0 +1,10 @@
+<p>search works!</p>
+<div class="search-div">
+    <span><b>Search </b></span>
+    <input type="text" (input)="changeSearchValue($event)">
+    <!-- <span > {{msg}}</span> -->
+    <span *ngIf="flag; then updatedMsg else anotherMsg"></span>
+    <ng-template #updatedMsg>You are searched for {{val}}</ng-template>
+    <ng-template #anotherMsg></ng-template>
+
+</div>

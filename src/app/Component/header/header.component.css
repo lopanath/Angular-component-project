@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    background-color: darksalmon;
+    height:100px;
+}
+ 
+.site-name{
+    padding:10px 30px;
+    color:darkblue;
+}
+ 
+.site-menu {
+    padding: 30px 30px;
+    margin-left: 100px;
+}
+ 
+a{
+    margin-inline: 8px 10px;
+    text-decoration : none;
+    color:darkorchid
+}
